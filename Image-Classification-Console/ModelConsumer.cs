@@ -16,7 +16,8 @@ namespace Image_Classification_Console
         {
             var predictor = context.Model.CreatePredictionEngine<ImageData, ImagePrediction>(model);
 
-            var imageData = new ImageData() { ImagePath = Path.Combine(_imagesFolder, "test-toaster.jpg") };
+            var fileNames = Directory.GetFiles(_imagesFolder);
+            var imageData = new ImageData() { ImagePath = Path.Combine(_imagesFolder, fileNames.First()) };
             var prediction = predictor.Predict(imageData);
 
             Console.WriteLine($"Image '{ Path.GetFileName(imageData.ImagePath) }' predicted as '{ prediction.PredictedLabelValue }' with score: { prediction.Score?.Max() }.");
