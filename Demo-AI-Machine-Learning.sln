@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Values-Prediction-ByHand-Console", "Values-Prediction-ByHand-Console\Values-Prediction-ByHand-Console.csproj", "{D88D4BEA-52F3-479D-BAAE-1AB53F7074A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Values-Prediction-ModelBuilder-Console", "Values-Prediction-ModelBuilder-Console\Values-Prediction-ModelBuilder-Console.csproj", "{22F99B4C-646E-440D-BACE-459F808661BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Image-Classification-Console", "Image-Classification-Console\Image-Classification-Console.csproj", "{34394BEC-1744-47CD-8E3B-76250FDFEF85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image-Classification-WinForms", "Image-Classification-WinForms\Image-Classification-WinForms.csproj", "{AC068221-E3E5-4803-8EA1-FCFB0819C713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image-Classification-Entities", "Image-Classification-Entities\Image-Classification-Entities.csproj", "{14FAEDB2-721B-4B8F-BBDA-80F2011A1F61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{AFDFC30B-C97B-4A8E-A269-128228D493C6}"
+	ProjectSection(SolutionItems) = preProject
+		Models\image-classification-model.zip = Models\image-classification-model.zip
+		Models\inception-model.zip = Models\inception-model.zip
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D88D4BEA-52F3-479D-BAAE-1AB53F7074A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88D4BEA-52F3-479D-BAAE-1AB53F7074A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88D4BEA-52F3-479D-BAAE-1AB53F7074A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88D4BEA-52F3-479D-BAAE-1AB53F7074A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F99B4C-646E-440D-BACE-459F808661BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F99B4C-646E-440D-BACE-459F808661BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F99B4C-646E-440D-BACE-459F808661BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F99B4C-646E-440D-BACE-459F808661BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34394BEC-1744-47CD-8E3B-76250FDFEF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34394BEC-1744-47CD-8E3B-76250FDFEF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34394BEC-1744-47CD-8E3B-76250FDFEF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34394BEC-1744-47CD-8E3B-76250FDFEF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC068221-E3E5-4803-8EA1-FCFB0819C713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC068221-E3E5-4803-8EA1-FCFB0819C713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC068221-E3E5-4803-8EA1-FCFB0819C713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC068221-E3E5-4803-8EA1-FCFB0819C713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FAEDB2-721B-4B8F-BBDA-80F2011A1F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FAEDB2-721B-4B8F-BBDA-80F2011A1F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FAEDB2-721B-4B8F-BBDA-80F2011A1F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FAEDB2-721B-4B8F-BBDA-80F2011A1F61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC505BAD-6A89-4A8B-B0F0-E86DC32E8B8F}
+	EndGlobalSection
+EndGlobal
