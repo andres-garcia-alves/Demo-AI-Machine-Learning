@@ -11,7 +11,7 @@ Datasets:
 ### Version History
 
 v1.0 (2023.07.04) - Initial release.  
-v1.1 (2023.07.09) - Adding 'Image-Classification-Console' project.  
+v1.1 (2023.07.09) - Adding 'Image-Classification-Console' (trainning) project.  
 v1.2 (2023.07.10) - Adding 'Image-Classification-WinForms' (consumer) project.  
 
 &nbsp;
