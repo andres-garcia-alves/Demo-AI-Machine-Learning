@@ -363,5 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # Cumtom files
+# Models/tensorflow-inception-model.zip
 Image-Classification-Console/assets/inception-model/
-Models/
