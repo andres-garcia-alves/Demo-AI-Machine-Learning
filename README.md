@@ -8,6 +8,31 @@ Datasets:
 
 &nbsp;
 
+### Proyects
+
+| Name                             | Type          | Description                                                    |
+|----------------------------------|---------------|----------------------------------------------------------------|
+| `Image-Classification-Console`   | Model Trainer | Image classifier between 3 categories (food, toy, appliance).
+<BR> Based on Tensorflow Inception model.
+<BR> Execute this proyect first to build the model. |
+| `Image-Classification-WinForms`  | Consumer      | Image classifier sample consumer.                              |
+| `Values-Prediction-ByHand`       | Model Trainer | House prices prediction (regression) with hand-made model.     |
+| `Values-Prediction-ModelBuilder` | Model Trainer | House prices prediction (regression) with model-builder model. |
+
+&nbsp;
+
+### Screenshots
+
+| Values Prediction (trainning)                       | Image Classification (trainning)                    |
+|-----------------------------------------------------|-----------------------------------------------------|
+| ![](Resources/01-values-prediction.png)             | ![](Resources/02-image-classification-01.png)       |
+
+| Image Classification (consumer sample)              |  Image Classification (consumer sample)             |
+|-----------------------------------------------------|-----------------------------------------------------|
+| ![](Resources/02-image-classification-02)           | ![](Resources/02-image-classification-03.jpg)       |
+
+&nbsp;
+
 ### Version History
 
 v1.0 (2023.07.04) - Initial release.  
