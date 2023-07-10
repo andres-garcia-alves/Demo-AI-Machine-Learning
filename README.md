@@ -10,14 +10,12 @@ Datasets:
 
 ### Proyects
 
-| Name                             | Type          | Description                                                    |
-|----------------------------------|---------------|----------------------------------------------------------------|
-| `Image-Classification-Console`   | Model Trainer | Image classifier between 3 categories (food, toy, appliance).
-<BR> Based on Tensorflow Inception model.
-<BR> Execute this proyect first to build the model. |
-| `Image-Classification-WinForms`  | Consumer      | Image classifier sample consumer.                              |
-| `Values-Prediction-ByHand`       | Model Trainer | House prices prediction (regression) with hand-made model.     |
-| `Values-Prediction-ModelBuilder` | Model Trainer | House prices prediction (regression) with model-builder model. |
+| Name                             | Type     | Description                                                    |
+|----------------------------------|----------|----------------------------------------------------------------|
+| `Image-Classification-Console`   | Trainer  | Image classifier between 3 categories (food, toy, appliance). <BR>Based on Tensorflow Inception model. <BR>Execute this proyect first to build the model. |
+| `Image-Classification-WinForms`  | Consumer | Image classifier sample consumer.                              |
+| `Values-Prediction-ByHand`       | Trainer  | House prices prediction (regression) with hand-made model.     |
+| `Values-Prediction-ModelBuilder` | Trainer  | House prices prediction (regression) with model-builder model. |
 
 &nbsp;
 
@@ -29,7 +27,7 @@ Datasets:
 
 | Image Classification (consumer sample)              |  Image Classification (consumer sample)             |
 |-----------------------------------------------------|-----------------------------------------------------|
-| ![](Resources/02-image-classification-02)           | ![](Resources/02-image-classification-03.jpg)       |
+| ![](Resources/02-image-classification-02.jpg)       | ![](Resources/02-image-classification-03.jpg)       |
 
 &nbsp;
 
