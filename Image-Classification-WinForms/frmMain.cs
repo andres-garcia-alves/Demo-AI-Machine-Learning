@@ -29,6 +29,7 @@ namespace Image_Classification_WinForms
             this.picBox.ImageLocation = this.SelectedFileName;
             this.btnPredict.Enabled = true;
             this.lblPrediction.Visible = false;
+            this.lblDragDropMessage.Visible = false;
         }
 
         private void picBox_LoadCompleted(object sender, AsyncCompletedEventArgs e)
@@ -49,6 +50,7 @@ namespace Image_Classification_WinForms
             this.picBox.ImageLocation = this.SelectedFileName;
             this.btnPredict.Enabled = true;
             this.lblPrediction.Visible = false;
+            this.lblDragDropMessage.Visible = false;
         }
 
         private void btnPredict_Click(object sender, EventArgs e)

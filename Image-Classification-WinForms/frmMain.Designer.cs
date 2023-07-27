@@ -33,12 +33,13 @@
             btnPredict = new Button();
             lblPrediction = new Label();
             openFileDialog = new OpenFileDialog();
+            lblDragDropMessage = new Label();
             ((System.ComponentModel.ISupportInitialize)picBox).BeginInit();
             SuspendLayout();
             // 
             // picBox
             // 
-            picBox.Location = new Point(50, 52);
+            picBox.Location = new Point(68, 52);
             picBox.Name = "picBox";
             picBox.Size = new Size(764, 430);
             picBox.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -82,12 +83,22 @@
             // 
             openFileDialog.Filter = "Images|*.jpg; *.png";
             // 
+            // lblDragDropMessage
+            // 
+            lblDragDropMessage.AutoSize = true;
+            lblDragDropMessage.Location = new Point(322, 251);
+            lblDragDropMessage.Name = "lblDragDropMessage";
+            lblDragDropMessage.Size = new Size(255, 15);
+            lblDragDropMessage.TabIndex = 4;
+            lblDragDropMessage.Text = "Optionally, you can drag and drop images here";
+            // 
             // frmMain
             // 
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(875, 537);
+            ClientSize = new Size(884, 537);
+            Controls.Add(lblDragDropMessage);
             Controls.Add(lblPrediction);
             Controls.Add(btnPredict);
             Controls.Add(btnSelectImage);
@@ -110,5 +121,6 @@
         private Button btnPredict;
         private Label lblPrediction;
         private OpenFileDialog openFileDialog;
+        private Label lblDragDropMessage;
     }
 }
